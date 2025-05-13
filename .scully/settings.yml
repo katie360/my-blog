@@ -1,0 +1,11 @@
+identifier: m2aa83k0la0ff8oc
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: my-blog
+homeFolder: C:\Users\Boat\Desktop\Katies\TheLab\my-blog
+distFolder: ./dist/static
+outDir: C:\Users\Boat\Desktop\Katies\TheLab\my-blog\dist\static
+handle404: ''
+allowErrorCollect: true
