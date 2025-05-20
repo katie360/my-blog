@@ -1,3 +1,19 @@
+---
+title: Why your API might be slowing you down
+description: Improving API perfomance
+published: true
+slug: why-your-api-might-be-slowing-you-down
+route: /blog/why-your-api-might-be-slowing-you-down
+date: 2025-04-04
+author: Kate Ratemo
+image: /assets/posts/apiSlow.png
+tags:
+  - API
+  - Performance
+  - Quality Assurance
+
+---
+
 
 
 ## Introduction
@@ -115,7 +131,7 @@ GET /products?category=electronics&sort=price:asc&fields=id,name,price&limit=20
 
 By reducing data over-fetching, optimizing queries, and implementing caching, the API becomes much more efficient, improving frontend performance.
 
-### 3\. Unclear or Incorrect Error Messages
+### 3. Unclear or Incorrect Error Messages
 
 Unclear or incorrect error messages can make debugging a nightmare. When an error occurs, it’s critical for the API to provide detailed, actionable feedback.
 
@@ -176,15 +192,19 @@ To improve collaboration and ensure smooth integrations, backend developers shou
 1. **Involve API Consumers Early**  
 Frontend developers should be involved in the API design process from the start. By collaborating on structure, response formats, and expected data, both teams can ensure the API meets frontend needs.
     
-2.  **Version Your APIs**  
+2. **Version Your APIs**  
  APIs evolve over time, and proper versioning ensures backward compatibility. Whether you're adding new features or making changes to existing endpoints, versioning helps frontend developers transition smoothly.
-   
-     **Example:**
-         
-       ```bash
+   ```bash
+       
          GET /v1/users  
          GET /v2/users 
-      ```
+    ```
+ 
+ 
+   
+   
+         
+     
      
  3. **Use RESTful Principles and Consistent Naming Conventionss**  
 

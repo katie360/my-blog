@@ -1,0 +1,33 @@
+<section class="section" id="blog">
+  <div class="container">
+    <div class="section-title fade-in">
+      <h2>Latest Posts</h2>
+      <p>Discover my latest blogs and tutorials on web development, design, and more.</p>
+    </div>
+
+    <div class="blog-grid" id="blog-posts-container">
+      <div class="blog-card fade-in" *ngFor="let post of links$ | async">
+        <ng-container *ngIf="post['route'].startsWith('/blog/') && post['published']">
+          <img [src]="post['image']" [alt]="post['title']" class="blog-card-img" />
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span *ngIf="post['date']">{{ post['date'] | date: 'longDate'}}</span>
+              <span *ngIf="post['author']"> | {{ post['author'] }}</span>
+              <span *ngIf="post['readTime']"> | {{ post['readTime'] }}</span>
+            </div>
+            <div class="blog-card-tags" *ngIf="post['tags']?.length">
+              <span *ngFor="let tag of post['tags']" class="tag" [attr.data-tag]="tag.toLowerCase()">
+                {{ tag }}
+              </span>
+            </div>
+            <h3 class="blog-card-title">{{ post['title'] }}</h3>
+            <p class="blog-card-excerpt">{{ post['excerpt'] || post['description'] }}</p>
+            <a [routerLink]="post['route']" class="read-more">
+              Read more <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</section>

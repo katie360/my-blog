@@ -1,0 +1,74 @@
+<!-- app.component.html -->
+<router-outlet></router-outlet>
+
+<!-- Header -->
+ <app-header></app-header>
+
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <div class="intro">
+    <div class="intro-text">
+  <h1 class="fade-in">Hello <span class="accent">.</span></h1>
+
+  <h2 class="fade-in delay-1">
+    <span class="accent">&mdash;&mdash; </span> I'm <strong style="color: var(--dark);">Kate Ratemo</strong>
+  </h2>
+
+  <p class="fade-in pitch">
+    A curious mind building solutions through <span class="highlight">code</span>, <span class="highlight">community</span>, and <span class="highlight">creativity</span>.
+  </p>
+
+  <div class="fade-in delay-3">
+    <a routerLink="/blog-detail" class="btn btn-primary button">  <i class="fas fa-download"></i> Download CV</a>
+  </div>
+</div>
+
+      <div class="circle-container">
+          <img src="/assets/images/blob.svg" alt="Katie's Headshot" class="circle-image blob1" />
+  <img src="/assets/images/popblob.svg" alt="Katie's Headshot" class="circle-image blob2" />
+  <img src="/assets/images/snapshot2.png" alt="Katie's Headshot" class="circle-image profile" />
+      </div>
+    </div>
+  </div>
+</section>
+<section class="services">
+  <div class="container">
+    <div class="row">
+      <div class="service-card">
+          <i class="fas fa-code service-icon"></i>
+        <strong class="service-title">Custom Software Development</strong>
+        <p>Tailored solutions that solve real problems and drive business success.</p>
+      </div>
+      <div class="service-card">
+           <i class="fas fa-plug service-icon"></i>
+        <strong class="service-title">API Integrations & Automation</strong>
+        <p>Seamlessly connecting systems to streamline workflows and boost efficiency.</p>
+      </div>
+      <div class="service-card">
+         <i class="fas fa-pencil-ruler service-icon"></i>
+        <strong class="service-title">UX/UI Design Consulting</strong>
+        <p>Designing intuitive, engaging interfaces that enhance user experience and brand loyalty.</p>
+      </div>
+      <div class="service-card">
+         <i class="fas fa-users service-icon"></i>
+        <strong class="service-title">Community & Mentorship</strong>
+        <p>Building diverse, inclusive tech communities by empowering young girls.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<app-blog-list></app-blog-list>
+<app-footer></app-footer>
+<!-- Dark Mode Toggle -->
+<button class="dark-mode-toggle" id="dark-mode-toggle">
+  <i class="fas fa-moon"></i>
+</button>
+
+<!-- Scripts -->
+<script src="js/marked.min.js" defer></script>
+<script src="js/main.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js" defer></script>

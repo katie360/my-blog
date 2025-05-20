@@ -1,258 +1,409 @@
-
-      =====================================================================================================
-      Config file ".\scully.my-blog.config.ts" not found, only rendering routes without parameters
-      The config file should have a name that is formated as:
-          scully.<projectName>.config.ts
-      where <projectName> is the name of the project as defined in the 'angular.json' file
-      If you meant to build a different project as my-blog you can use:
-          --project differentProjectName as a cmd line option
-
-      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
-       which will look for package.json instead of angular.json to find the 'root' of the project.
-    =====================================================================================================
-The option outDir isn't configured, using default folder ".\dist\static\".No routes defined in "" Deprication Notice:
-       ======================================================================
-         From now on, the plugin that is being used to render a route is
-         able to be changed by the user. You can do this by adding or
-         enabling the plugin in the scully.json file. For your convenience,
-         we loaded the Puppeteer plugin for you.
-
-         To disable this warning enable the plugin of your choice.
-         for Puppteer please add:
-             import '@scullyio/scully-plugin-puppeteer';
-          to your scully.my-blog.config.ts file.
-
-          When you get this warning while not using scully-plugin-puppeteer
-          you need to set the defaultRouteRenderer to the name of your plugin.
-          The defaultRouteRenderer is now set to 'routeRenderer'.
-       ======================================================================
-
-
-
+Folder "./scully" doesn't seem to contain custom plugins
 (You can skip this, or any future question by using the --noPrompt flag)
-handleUnknownRoute: "/css/styles.css", 404:""
-
-      =====================================================================================================
-      Config file ".\scully.my-blog.config.ts" not found, only rendering routes without parameters
-      The config file should have a name that is formated as:
-          scully.<projectName>.config.ts
-      where <projectName> is the name of the project as defined in the 'angular.json' file
-      If you meant to build a different project as my-blog you can use:
-          --project differentProjectName as a cmd line option
-
-      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
-       which will look for package.json instead of angular.json to find the 'root' of the project.
-    =====================================================================================================
- Deprication Notice:
-       ======================================================================
-         From now on, the plugin that is being used to render a route is
-         able to be changed by the user. You can do this by adding or
-         enabling the plugin in the scully.json file. For your convenience,
-         we loaded the Puppeteer plugin for you.
-
-         To disable this warning enable the plugin of your choice.
-         for Puppteer please add:
-             import '@scullyio/scully-plugin-puppeteer';
-          to your scully.my-blog.config.ts file.
-
-          When you get this warning while not using scully-plugin-puppeteer
-          you need to set the defaultRouteRenderer to the name of your plugin.
-          The defaultRouteRenderer is now set to 'routeRenderer'.
-       ======================================================================No routes defined in ""The option outDir isn't configured, using default folder ".\dist\static\".
-
-
-
-----------------------------------   To discover new routes in the angular app use "npm run scully -- --scanRoutes"Using stored unhandled routes!.----------------------------------
-
-
-
-handleUnknownRoute: "/css/styles.css", 404:""
-
-      =====================================================================================================
-      Config file ".\scully.my-blog.config.ts" not found, only rendering routes without parameters
-      The config file should have a name that is formated as:
-          scully.<projectName>.config.ts
-      where <projectName> is the name of the project as defined in the 'angular.json' file
-      If you meant to build a different project as my-blog you can use:
-          --project differentProjectName as a cmd line option
-
-      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
-       which will look for package.json instead of angular.json to find the 'root' of the project.
-    =====================================================================================================
-The option outDir isn't configured, using default folder ".\dist\static\".No routes defined in "" Deprication Notice:
-       ======================================================================
-         From now on, the plugin that is being used to render a route is
-         able to be changed by the user. You can do this by adding or
-         enabling the plugin in the scully.json file. For your convenience,
-         we loaded the Puppeteer plugin for you.
-
-         To disable this warning enable the plugin of your choice.
-         for Puppteer please add:
-             import '@scullyio/scully-plugin-puppeteer';
-          to your scully.my-blog.config.ts file.
-
-          When you get this warning while not using scully-plugin-puppeteer
-          you need to set the defaultRouteRenderer to the name of your plugin.
-          The defaultRouteRenderer is now set to 'routeRenderer'.
-       ======================================================================
-
-
-
-----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npm run scully -- --scanRoutes"----------------------------------
-
-
-
-handleUnknownRoute: "/css/styles.css", 404:""
-handleUnknownRoute: "/css/styles.css", 404:""
-handleUnknownRoute: "/portfolio.html", 404:""
-handleUnknownRoute: "/blog", 404:""
-handleUnknownRoute: "/blog/my-first-post", 404:""
-handleUnknownRoute: "/my-first-post", 404:""
-The option outDir isn't configured, using default folder ".\dist\static\". Deprication Notice:
-       ======================================================================
-         From now on, the plugin that is being used to render a route is
-         able to be changed by the user. You can do this by adding or
-         enabling the plugin in the scully.json file. For your convenience,
-         we loaded the Puppeteer plugin for you.
-
-         To disable this warning enable the plugin of your choice.
-         for Puppteer please add:
-             import '@scullyio/scully-plugin-puppeteer';
-          to your scully.my-blog.config.ts file.
-
-          When you get this warning while not using scully-plugin-puppeteer
-          you need to set the defaultRouteRenderer to the name of your plugin.
-          The defaultRouteRenderer is now set to 'routeRenderer'.
-       ======================================================================No routes defined in ""
-      =====================================================================================================
-      Config file ".\scully.my-blog.config.ts" not found, only rendering routes without parameters
-      The config file should have a name that is formated as:
-          scully.<projectName>.config.ts
-      where <projectName> is the name of the project as defined in the 'angular.json' file
-      If you meant to build a different project as my-blog you can use:
-          --project differentProjectName as a cmd line option
-
-      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
-       which will look for package.json instead of angular.json to find the 'root' of the project.
-    =====================================================================================================
-
-
-
-
-Using stored unhandled routes!.--------------------------------------------------------------------   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
-
-
-
-handleUnknownRoute: "/css/styles.css", 404:""
-handleUnknownRoute: "/css/styles.css", 404:""
-handleUnknownRoute: "/blog", 404:""
-
-      =====================================================================================================
-      Config file ".\scully.my-blog.config.ts" not found, only rendering routes without parameters
-      The config file should have a name that is formated as:
-          scully.<projectName>.config.ts
-      where <projectName> is the name of the project as defined in the 'angular.json' file
-      If you meant to build a different project as my-blog you can use:
-          --project differentProjectName as a cmd line option
-
-      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
-       which will look for package.json instead of angular.json to find the 'root' of the project.
-    =====================================================================================================
-No routes defined in "" Deprication Notice:
-       ======================================================================
-         From now on, the plugin that is being used to render a route is
-         able to be changed by the user. You can do this by adding or
-         enabling the plugin in the scully.json file. For your convenience,
-         we loaded the Puppeteer plugin for you.
-
-         To disable this warning enable the plugin of your choice.
-         for Puppteer please add:
-             import '@scullyio/scully-plugin-puppeteer';
-          to your scully.my-blog.config.ts file.
-
-          When you get this warning while not using scully-plugin-puppeteer
-          you need to set the defaultRouteRenderer to the name of your plugin.
-          The defaultRouteRenderer is now set to 'routeRenderer'.
-       ======================================================================The option outDir isn't configured, using default folder ".\dist\static\".
-
-
-
-----------------------------------Using stored unhandled routes!.----------------------------------   To discover new routes in the angular app use "npm run scully -- --scanRoutes"
-
-
-
-handleUnknownRoute: "/css/styles.css", 404:""
-
-      =====================================================================================================
-      Config file ".\scully.my-blog.config.ts" not found, only rendering routes without parameters
-      The config file should have a name that is formated as:
-          scully.<projectName>.config.ts
-      where <projectName> is the name of the project as defined in the 'angular.json' file
-      If you meant to build a different project as my-blog you can use:
-          --project differentProjectName as a cmd line option
-
-      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
-       which will look for package.json instead of angular.json to find the 'root' of the project.
-    =====================================================================================================
-The option outDir isn't configured, using default folder ".\dist\static\".No routes defined in "" Deprication Notice:
-       ======================================================================
-         From now on, the plugin that is being used to render a route is
-         able to be changed by the user. You can do this by adding or
-         enabling the plugin in the scully.json file. For your convenience,
-         we loaded the Puppeteer plugin for you.
-
-         To disable this warning enable the plugin of your choice.
-         for Puppteer please add:
-             import '@scullyio/scully-plugin-puppeteer';
-          to your scully.my-blog.config.ts file.
-
-          When you get this warning while not using scully-plugin-puppeteer
-          you need to set the defaultRouteRenderer to the name of your plugin.
-          The defaultRouteRenderer is now set to 'routeRenderer'.
-       ======================================================================
-
-
-
-----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npm run scully -- --scanRoutes"----------------------------------
-
-
-
-handleUnknownRoute: "/css/styles.css", 404:""
-
-      =====================================================================================================
-      Config file ".\scully.my-blog.config.ts" not found, only rendering routes without parameters
-      The config file should have a name that is formated as:
-          scully.<projectName>.config.ts
-      where <projectName> is the name of the project as defined in the 'angular.json' file
-      If you meant to build a different project as my-blog you can use:
-          --project differentProjectName as a cmd line option
-
-      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
-       which will look for package.json instead of angular.json to find the 'root' of the project.
-    =====================================================================================================
-The option outDir isn't configured, using default folder ".\dist\static\".No routes defined in "" Deprication Notice:
-       ======================================================================
-         From now on, the plugin that is being used to render a route is
-         able to be changed by the user. You can do this by adding or
-         enabling the plugin in the scully.json file. For your convenience,
-         we loaded the Puppeteer plugin for you.
-
-         To disable this warning enable the plugin of your choice.
-         for Puppteer please add:
-             import '@scullyio/scully-plugin-puppeteer';
-          to your scully.my-blog.config.ts file.
-
-          When you get this warning while not using scully-plugin-puppeteer
-          you need to set the defaultRouteRenderer to the name of your plugin.
-          The defaultRouteRenderer is now set to 'routeRenderer'.
-       ======================================================================
-
-
-
-handleUnknownRoute: "/css/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
 Folder "./scully" doesn't seem to contain custom plugins
-handleUnknownRoute: "/css/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/my-first-blog"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/my-first-blog"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/___UNPUBLISHED___matsm8p2_nKhP7mcB0iJ1i5g3ZsiCuhhoGOfbOrKo"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/___UNPUBLISHED___matsm8p2_nKhP7mcB0iJ1i5g3ZsiCuhhoGOfbOrKo"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
 Folder "./scully" doesn't seem to contain custom plugins
-handleUnknownRoute: "/css/styles.css", 404:""
+Content file ".\blog\test-post.md" has no content!
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/my-first-blog"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/my-first-blog"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/blog/my-first-blog/index.html", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/.well-known/appspecific/com.chrome.devtools.json", 404:""
+handleUnknownRoute: "/styles.css", 404:""handleUnknownRoute: "/.well-known/appspecific/com.chrome.devtools.json", 404:""
+
+handleUnknownRoute: "/blog/my-first-blog/index.html", 404:""
 Folder "./scully" doesn't seem to contain custom plugins
-handleUnknownRoute: "/css/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+Folder "./scully" doesn't seem to contain custom plugins
+-----------------------------------
+The port "2667" is not available for the live-reload server.
+live reload will not be available. You can configure a different port in the config file.
+-----------------------------------
+
+----------------------------------   To discover new routes in the angular app use "npx scully --scanRoutes"Using stored unhandled routes!.----------------------------------
+
+
+
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/my-first-blog"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/my-first-blog"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/my-first-blog"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/my-first-blog"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/my-first-blog"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/my-first-blog"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/my-first-blog"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/my-first-blog"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+
+handleUnknownRoute: "/.well-known/appspecific/com.chrome.devtools.json", 404:""handleUnknownRoute: "/blog/styles.css", 404:""
+
+handleUnknownRoute: "/blog/my-first-blog/index.html", 404:""
+handleUnknownRoute: "/.well-known/appspecific/com.chrome.devtools.json", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/blog/my-first-blog/index.html", 404:""
+handleUnknownRoute: "/blog/my-first-blog/index.html", 404:""
+handleUnknownRoute: "/blog/my-first-blog/index.html", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""handleUnknownRoute: "/.well-known/appspecific/com.chrome.devtools.json", 404:""
+
+handleUnknownRoute: "/styles.css", 404:""handleUnknownRoute: "/blog/styles.css", 404:""
+
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/posts/post1/what-is-end-to-end-testing.webp", 404:""
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/my-first-blog"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/my-first-blog"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/my-first-blog"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/my-first-blog"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/my-first-blog"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/my-first-blog"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/my-first-blog"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/my-first-blog"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+
+handleUnknownRoute: "/.well-known/appspecific/com.chrome.devtools.json", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/posts/post1/what-is-end-to-end-testing.webp", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/.well-known/appspecific/com.chrome.devtools.json", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/blog/my-first-blog/index.html", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/.well-known/appspecific/com.chrome.devtools.json", 404:""handleUnknownRoute: "/styles.css", 404:""
+
+handleUnknownRoute: "/blog/end-to-end-api-testing/index.html", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/blog/end-to-end-api-testing/index.html", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/api-design-for-collaboration", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+Route "/blog/api-design-for-collaboration" not provided by angular app
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/api-design-for-collaboration"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/api-design-for-collaboration"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+
+handleUnknownRoute: "/blog/api-design-for-collaboration", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+Route "/blog/api-design-for-collaboration" not provided by angular app
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/api-design-for-collaboration"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/api-design-for-collaboration"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/blog/api-design-for-collaboration", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+Route "/blog/api-design-for-collaboration" not provided by angular app
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/api-design-for-collaboration"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/api-design-for-collaboration"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/blog/api-design-for-collaboration", 404:""
+Route "/blog/api-design-for-collaboration" not provided by angular app
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/api-design-for-collaboration"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/api-design-for-collaboration"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+handleUnknownRoute: "/blog/api-design-for-collaboration", 404:""
+Route "/blog/api-design-for-collaboration" not provided by angular app
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/api-design-for-collaboration"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/api-design-for-collaboration"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+handleUnknownRoute: "/blog/api-design-for-collaboration", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""handleUnknownRoute: "/styles.css", 404:""
+
+Route "/blog/api-design-for-collaboration" not provided by angular app
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/api-design-for-collaboration"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/api-design-for-collaboration"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/blog/end-to-end-api-testing/index.html", 404:""
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/end-to-end-api-testing"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/end-to-end-api-testing"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/end-to-end-api-testing"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/end-to-end-api-testing"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+handleUnknownRoute: "/blog/end-to-end-api-testing/index.html", 404:""
+handleUnknownRoute: "/blog/api-design-for-collaboration", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+Route "/blog/api-design-for-collaboration" not provided by angular app
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/api-design-for-collaboration"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/api-design-for-collaboration"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/end-to-end-api-testing/index.html", 404:""
+handleUnknownRoute: "/styles.css", 404:""
+handleUnknownRoute: "/blog/end-to-end-api-testing/index.html", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/end-to-end-api-testing/index.html", 404:""
+handleUnknownRoute: "/blog/end-to-end-api-testing/index.html", 404:""
+handleUnknownRoute: "/blog/end-to-end-api-testing/index.html", 404:""
+handleUnknownRoute: "/blog/api-design-for-collaboration", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+Route "/blog/api-design-for-collaboration" not provided by angular app
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/api-design-for-collaboration"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/api-design-for-collaboration"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/2025-04-04_-Why_Your_API_Might_Be_Slowing_Down_the_Frontend_(and_How_to_Fix_It)"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/2025-04-04_-Why_Your_API_Might_Be_Slowing_Down_the_Frontend_(and_How_to_Fix_It)"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+handleUnknownRoute: "/blog/api-design-for-collaboration", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+Route "/blog/api-design-for-collaboration" not provided by angular app
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/api-design-for-collaboration"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/api-design-for-collaboration"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+handleUnknownRoute: "/blog/api-design-for-collaboration", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+Route "/blog/api-design-for-collaboration" not provided by angular app
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/api-design-for-collaboration"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/api-design-for-collaboration"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+handleUnknownRoute: "/blog/api-design-for-collaboration", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+Route "/blog/api-design-for-collaboration" not provided by angular app
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/api-design-for-collaboration"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/api-design-for-collaboration"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+handleUnknownRoute: "/blog/api-design-for-collaboration", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/blog/styles.css", 404:""
+Route "/blog/api-design-for-collaboration" not provided by angular app
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/api-design-for-collaboration"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/api-design-for-collaboration"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+

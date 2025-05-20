@@ -1,0 +1,31 @@
+
+<app-header></app-header>
+
+<main class="container" *ngIf="post">
+  <article class="blog-post">
+    <div class="blog-post-header">
+      <h1 class="blog-post-title">{{ post['title'] }}</h1>
+
+      <div class="blog-post-meta">
+        <span *ngIf="post['date']">{{ post['date'] | date: 'longDate' }}</span>
+        <span *ngIf="post['author']"> | {{ post['author'] }}</span>
+        <span *ngIf="post['readTime']"> | {{ post['readTime'] }}</span>
+      </div>
+
+      <div class="blog-post-tags" *ngIf="post['tags']?.length">
+        <span *ngFor="let tag of post['tags']" class="tag" [attr.data-tag]="tag.toLowerCase()">
+          {{ tag }}
+        </span>
+      </div>
+    </div>
+
+    <div class="blog-post-content">
+      <scully-content></scully-content>
+    </div>
+  </article>
+</main>
+
+<div *ngIf="!post">
+  <p>Loading post...</p>
+</div>
+<app-footer></app-footer>

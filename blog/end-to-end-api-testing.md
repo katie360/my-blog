@@ -1,10 +1,18 @@
 ---
-title: My First Post
-description: Hello world!
+title: End-to-End API Testing
+description: Ensuring API reliability
 published: true
-slug: my-first-post
+slug: end-to-end-api-testing
+route: /blog/end-to-end-api-testing
+date: 2025-05-18
+author: Kate Ratemo
+image: /assets/posts/post1/what-is-end-to-end-testing.webp
+tags:
+  - API
+  - Testing
+  - Quality
 ---
-# **API Quality Series: End-to-End API Testing**
+
 
 ## **Introduction**
 
