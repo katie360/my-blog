@@ -1,9 +1,6 @@
 <section class="section" id="blog">
   <div class="container">
-    <div class="section-title fade-in">
-      <h2>Latest Posts</h2>
-      <p>Discover my latest blogs and tutorials on web development, design, and more.</p>
-    </div>
+
 
     <div class="blog-grid" id="blog-posts-container">
       <div class="blog-card fade-in" *ngFor="let post of links$ | async">
@@ -23,7 +20,7 @@
             <h3 class="blog-card-title">{{ post['title'] }}</h3>
             <p class="blog-card-excerpt">{{ post['excerpt'] || post['description'] }}</p>
             <a [routerLink]="post['route']" class="read-more">
-              Read more <i class="fas fa-arrow-right"></i>
+              Read more
             </a>
           </div>
         </ng-container>

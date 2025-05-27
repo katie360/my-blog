@@ -37,13 +37,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+html, body {
+  overflow-x: hidden;
+}
+
 .accent{
   color: var(--accent);
 }
-.pitch{
 
-
-}
 /* O
 .nly remove bullets for nav lists */
 nav li {
@@ -138,8 +139,8 @@ a:hover {
 }
 
 .logo-img {
-    width: 75px;
-    height: 30px;
+     width: 140px;
+    height: 40px;
 }
 
 
@@ -281,9 +282,9 @@ header {
 }
 
 /* Blog Section */
-.section {
+/* .section {
   padding: 4rem 0;
-}
+} */
 
 .section-title {
   text-align: center;
@@ -524,6 +525,7 @@ footer {
   background-color: var(--dark);
   color: white;
   padding: 3rem 0;
+  margin-top: -20px;
 }
 
 .footer-container {
@@ -555,6 +557,7 @@ footer {
 
 .footer-links {
   list-style: none;
+  padding: 0!important;
 }
 
 .footer-links li {
@@ -742,3 +745,4 @@ body.dark-mode .tag {
   padding: 2rem;
   color: var(--gray);
 }
+
