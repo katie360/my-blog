@@ -814,3 +814,76 @@ handleUnknownRoute: "/my-blog/styles.b3d1db76b206be4ba946.css", 404:""
       ----------------
       
 
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+
+handleUnknownRoute: "/blog/api-design-for-collaboration", 404:""Route "/blog/api-design-for-collaboration" not provided by angular app
+
+handleUnknownRoute: "/styles.css", 404:""handleUnknownRoute: "/my-blog/runtime-es2020.fa37375c1327efe1ed53.js", 404:""handleUnknownRoute: "/my-blog/polyfills-es2020.5ce6e5cb98cccf85b464.js", 404:""handleUnknownRoute: "/my-blog/main-es2020.2ab64b2721bf0fc7a5f2.js", 404:""handleUnknownRoute: "/blog/styles.css", 404:""handleUnknownRoute: "/my-blog/runtime-es2020.fa37375c1327efe1ed53.js", 404:""handleUnknownRoute: "/my-blog/polyfills-es2020.5ce6e5cb98cccf85b464.js", 404:""handleUnknownRoute: "/styles.css", 404:""
+
+
+handleUnknownRoute: "/my-blog/main-es2020.2ab64b2721bf0fc7a5f2.js", 404:""handleUnknownRoute: "/blog/styles.css", 404:""
+
+handleUnknownRoute: "/my-blog/runtime-es2020.fa37375c1327efe1ed53.js", 404:""handleUnknownRoute: "/my-blog/polyfills-es2020.5ce6e5cb98cccf85b464.js", 404:""
+
+
+handleUnknownRoute: "/my-blog/main-es2020.2ab64b2721bf0fc7a5f2.js", 404:""
+
+handleUnknownRoute: "/my-blog/runtime-es2020.fa37375c1327efe1ed53.js", 404:""
+
+handleUnknownRoute: "/my-blog/polyfills-es2020.5ce6e5cb98cccf85b464.js", 404:""
+handleUnknownRoute: "/my-blog/main-es2020.2ab64b2721bf0fc7a5f2.js", 404:""
+
+
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/api-design-for-collaboration"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/api-design-for-collaboration"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+handleUnknownRoute: "/my-blog/styles.b3d1db76b206be4ba946.css", 404:""
+handleUnknownRoute: "/my-blog/styles.b3d1db76b206be4ba946.css", 404:""
+handleUnknownRoute: "/my-blog/styles.b3d1db76b206be4ba946.css", 404:""
+handleUnknownRoute: "/my-blog/styles.b3d1db76b206be4ba946.css", 404:""
+Folder "./scully" doesn't seem to contain custom plugins
+Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"--------------------------------------------------------------------
+
+
+
+handleUnknownRoute: "/blog/api-design-for-collaboration", 404:""
+handleUnknownRoute: "/styles.css", 404:""handleUnknownRoute: "/my-blog/runtime-es2020.fa37375c1327efe1ed53.js", 404:""handleUnknownRoute: "/my-blog/polyfills-es2020.5ce6e5cb98cccf85b464.js", 404:""handleUnknownRoute: "/my-blog/main-es2020.2ab64b2721bf0fc7a5f2.js", 404:""Route "/blog/api-design-for-collaboration" not provided by angular apphandleUnknownRoute: "/blog/styles.css", 404:""handleUnknownRoute: "/styles.css", 404:""
+
+
+
+
+
+handleUnknownRoute: "/my-blog/runtime-es2020.fa37375c1327efe1ed53.js", 404:""handleUnknownRoute: "/my-blog/polyfills-es2020.5ce6e5cb98cccf85b464.js", 404:""handleUnknownRoute: "/my-blog/main-es2020.2ab64b2721bf0fc7a5f2.js", 404:""handleUnknownRoute: "/blog/styles.css", 404:""
+handleUnknownRoute: "/my-blog/runtime-es2020.fa37375c1327efe1ed53.js", 404:""
+
+handleUnknownRoute: "/my-blog/polyfills-es2020.5ce6e5cb98cccf85b464.js", 404:""
+handleUnknownRoute: "/my-blog/main-es2020.2ab64b2721bf0fc7a5f2.js", 404:""
+
+
+handleUnknownRoute: "/my-blog/runtime-es2020.fa37375c1327efe1ed53.js", 404:""handleUnknownRoute: "/my-blog/polyfills-es2020.5ce6e5cb98cccf85b464.js", 404:""handleUnknownRoute: "/my-blog/main-es2020.2ab64b2721bf0fc7a5f2.js", 404:""
+
+
+
+      ----------------
+      Error, missing "<scully-content>" in route "/blog/api-design-for-collaboration"
+      without <scully-content> we can not render this route.
+      Make sure it is in there, and not inside any conditionals (*ngIf)
+      You can check this by opening "http://localhost:4200/blog/api-design-for-collaboration"
+      when you serve your app with ng serve and then in the browsers console run:
+      document.querySelector('scully-content')
+      ----------------
+      
+
+handleUnknownRoute: "/my-blog/styles.b3d1db76b206be4ba946.css", 404:""
+handleUnknownRoute: "/my-blog/styles.b3d1db76b206be4ba946.css", 404:""
+handleUnknownRoute: "/my-blog/styles.b3d1db76b206be4ba946.css", 404:""
+handleUnknownRoute: "/my-blog/styles.b3d1db76b206be4ba946.css", 404:""
