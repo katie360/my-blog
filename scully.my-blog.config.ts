@@ -4,7 +4,7 @@ import '@scullyio/scully-plugin-puppeteer';
 export const config: ScullyConfig = {
   projectRoot: "./src",
   projectName: "my-blog", // match exactly what’s in angular.json
-  outDir: './dist/static',
+  outDir: './docs', // Changed for GitHub Pages
   routes: {
     '/blog/:slug': {
       type: 'contentFolder',
